@@ -1,4 +1,4 @@
-Everdrive Code'n'stuff done by insane/Rabenauge^tSCc <insane.atari@gmail.com>
+Mega Everdrive X7+PRO Utilities done by insane/Rabenauge^tSCc
 
 runedpro
   - transfer and execute a ROM file via USB to your Mega Everdrive PRO (linux)
