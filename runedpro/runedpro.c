@@ -309,7 +309,7 @@ void do_transfer() {
   hostreset(HOST_RST_SOFT);
   memWR(ADDR_ROM,buf,0,filelen);
   hostreset(HOST_RST_OFF);
-  int resp=rx8();
+  int resp=rx8(); //TODO: Timeout when ED does not Reset to Menu
   if (resp!='r') printf("unexpected response: %04X\n",resp);
   hosttest();
   fifoWR("*g",0,2);
